@@ -20,7 +20,6 @@ class Scrapping:
             return None
 
     def get_fund_data(self, fund_code):
-        # Retorna o HTML bruto da página
         raw_data = self.fetch_page(fund_code)
         if raw_data is None:
             return {}

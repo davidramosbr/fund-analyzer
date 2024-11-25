@@ -7,6 +7,7 @@
     "liquidez_media_diaria": 18000000,
     "cotistas": 74981,
     "ultimo_rendimento": 0.8,
-    "yield_mensal": 12.99,
-    "yield_anual": 10.3
+    "yield_mensal": 13.0,
+    "yield_anual": 10.3,
+    "setor": "PAPéIS"
 }

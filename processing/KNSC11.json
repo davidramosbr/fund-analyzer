@@ -1,12 +1,13 @@
 {
     "fund_name": "KNSC11",
     "patrimonio_liquido": 18000000000,
-    "fund_price": 8.64,
+    "fund_price": 8.61,
     "value_per_share": 8.89,
-    "pvp": 0.95,
-    "liquidez_media_diaria": 60000000,
+    "pvp": 0.97,
+    "liquidez_media_diaria": 58000000,
     "cotistas": 180568,
     "ultimo_rendimento": 0.08,
-    "yield_mensal": 11.89,
-    "yield_anual": 1.0
+    "yield_mensal": 11.57,
+    "yield_anual": 1.0,
+    "setor": "PAPéIS"
 }

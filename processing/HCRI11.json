@@ -3,10 +3,11 @@
     "patrimonio_liquido": 643000000,
     "fund_price": 278.3,
     "value_per_share": 321.47,
-    "pvp": 0.86,
+    "pvp": 0.87,
     "liquidez_media_diaria": 0,
     "cotistas": 3147,
     "ultimo_rendimento": 2.75,
-    "yield_mensal": 11.75,
-    "yield_anual": 32.36
+    "yield_mensal": 11.63,
+    "yield_anual": 32.36,
+    "setor": "HOSPITALAR"
 }

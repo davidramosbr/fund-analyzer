@@ -4,9 +4,10 @@
     "fund_price": 103.5,
     "value_per_share": 117.14,
     "pvp": 0.88,
-    "liquidez_media_diaria": 130000000,
+    "liquidez_media_diaria": 129000000,
     "cotistas": 555889,
     "ultimo_rendimento": 0.92,
-    "yield_mensal": 10.58,
-    "yield_anual": 10.97
+    "yield_mensal": 10.6,
+    "yield_anual": 10.97,
+    "setor": "SHOPPINGS"
 }

@@ -10,6 +10,7 @@ class Processing:
 
     def process_data(self):
         fund_name = self.soup.find("h1", class_="headerTicker__content__title").text.strip() if self.soup.find("h1", class_="headerTicker__content__title") else "Nome não encontrado"
+        fund_setor = self.soup.find("section", {"id": "carbon_fields_fiis_comparator_simulator-2"}).find_all("span")[2].find('i').text.strip()
         ul_comparator = self.soup.find("ul", class_="comparator__cols__list comparator__cols__list--data")
         patrimonio_liquido = Functions.convert_to_int(ul_comparator.find("li", {"data-row": "patrimonioLiquido"}).text.strip()) if ul_comparator.find("li", {"data-row": "patrimonioLiquido"}) else 0
         fund_price = Functions.convert_to_float(ul_comparator.find("li", {"data-row": "cotacao"}).text.strip()) if ul_comparator.find("li", {"data-row": "cotacao"}) else 0.0
@@ -20,6 +21,7 @@ class Processing:
         ultimo_rendimento = Functions.convert_to_float(ul_comparator.find("li", {"data-row": "ultimoRendimento"}).text.strip()) if ul_comparator.find("li", {"data-row": "ultimoRendimento"}) else 0.0
         yield_mensal = Functions.convert_to_float(ul_comparator.find("li", {"data-row": "yieldMensal"}).text.strip()) if ul_comparator.find("li", {"data-row": "yieldMensal"}) else 0.0
         yield_anual = Functions.convert_to_float(ul_comparator.find("li", {"data-row": "yieldAnual"}).text.strip()) if ul_comparator.find("li", {"data-row": "yieldAnual"}) else 0.0
+
         fund_data = {
             "fund_name": fund_name,
             "patrimonio_liquido": patrimonio_liquido,
@@ -31,6 +33,7 @@ class Processing:
             "ultimo_rendimento": ultimo_rendimento,
             "yield_mensal": yield_mensal,
             "yield_anual": yield_anual,
+            "setor": fund_setor,
         }
         self.save_data_json(fund_name, fund_data)
         return fund_data

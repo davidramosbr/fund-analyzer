@@ -3,10 +3,11 @@
     "patrimonio_liquido": 1684000000,
     "fund_price": 7.49,
     "value_per_share": 9.47,
-    "pvp": 0.78,
+    "pvp": 0.79,
     "liquidez_media_diaria": 0,
     "cotistas": 11218,
     "ultimo_rendimento": 0.09,
-    "yield_mensal": 15.03,
-    "yield_anual": 1.12
+    "yield_mensal": 14.89,
+    "yield_anual": 1.12,
+    "setor": "PAPéIS"
 }

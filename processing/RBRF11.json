@@ -7,6 +7,7 @@
     "liquidez_media_diaria": 23000000,
     "cotistas": 128386,
     "ultimo_rendimento": 0.09,
-    "yield_mensal": 10.4,
-    "yield_anual": 0.71
+    "yield_mensal": 10.38,
+    "yield_anual": 0.71,
+    "setor": "FUNDO DE FUNDOS"
 }

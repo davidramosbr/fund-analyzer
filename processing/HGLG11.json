@@ -4,9 +4,10 @@
     "fund_price": 154.06,
     "value_per_share": 156.85,
     "pvp": 0.98,
-    "liquidez_media_diaria": 78000000,
+    "liquidez_media_diaria": 77000000,
     "cotistas": 492957,
     "ultimo_rendimento": 1.1,
-    "yield_mensal": 8.56,
-    "yield_anual": 13.2
+    "yield_mensal": 8.57,
+    "yield_anual": 13.2,
+    "setor": "IMóVEIS INDUSTRIAIS E LOGíSTICOS"
 }

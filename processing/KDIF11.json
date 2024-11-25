@@ -4,9 +4,10 @@
     "fund_price": 127.24,
     "value_per_share": 0.0,
     "pvp": 0.0,
-    "liquidez_media_diaria": 35000000,
+    "liquidez_media_diaria": 34000000,
     "cotistas": 0,
     "ultimo_rendimento": 0.0,
-    "yield_mensal": 10.81,
-    "yield_anual": 13.65
+    "yield_mensal": 10.73,
+    "yield_anual": 13.65,
+    "setor": ""
 }

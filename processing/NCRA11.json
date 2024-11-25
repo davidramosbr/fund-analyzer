@@ -7,6 +7,7 @@
     "liquidez_media_diaria": 0,
     "cotistas": 8912,
     "ultimo_rendimento": 0.1,
-    "yield_mensal": 15.06,
-    "yield_anual": 1.2
+    "yield_mensal": 15.1,
+    "yield_anual": 1.2,
+    "setor": "INDEFINIDO"
 }

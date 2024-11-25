@@ -8,5 +8,6 @@
     "cotistas": 719,
     "ultimo_rendimento": 0.08,
     "yield_mensal": 5.01,
-    "yield_anual": 0.48
+    "yield_anual": 0.48,
+    "setor": "MISTO"
 }
