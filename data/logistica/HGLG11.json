@@ -1,0 +1,76 @@
+{
+    "dados_meses": [
+        {
+            "data": "2024-03-01",
+            "preco": 155.61,
+            "dividendo": 1.1,
+            "relacao_preco_dividendo": 0.0071
+        },
+        {
+            "data": "2024-04-01",
+            "preco": 154.43,
+            "dividendo": 1.1,
+            "relacao_preco_dividendo": 0.0071
+        },
+        {
+            "data": "2024-05-01",
+            "preco": 152.43,
+            "dividendo": 1.1,
+            "relacao_preco_dividendo": 0.0072
+        },
+        {
+            "data": "2024-06-01",
+            "preco": 152.27,
+            "dividendo": 1.1,
+            "relacao_preco_dividendo": 0.0072
+        },
+        {
+            "data": "2024-07-01",
+            "preco": 151.65,
+            "dividendo": 1.1,
+            "relacao_preco_dividendo": 0.0073
+        },
+        {
+            "data": "2024-08-01",
+            "preco": 153.44,
+            "dividendo": 1.1,
+            "relacao_preco_dividendo": 0.0072
+        },
+        {
+            "data": "2024-09-01",
+            "preco": 152.52,
+            "dividendo": 1.1,
+            "relacao_preco_dividendo": 0.0072
+        },
+        {
+            "data": "2024-10-01",
+            "preco": 150.4,
+            "dividendo": 1.1,
+            "relacao_preco_dividendo": 0.0073
+        },
+        {
+            "data": "2024-11-01",
+            "preco": 147.95,
+            "dividendo": 1.1,
+            "relacao_preco_dividendo": 0.0074
+        },
+        {
+            "data": "2024-12-01",
+            "preco": 152.8,
+            "dividendo": 1.1,
+            "relacao_preco_dividendo": 0.0072
+        },
+        {
+            "data": "2025-01-01",
+            "preco": 150.09,
+            "dividendo": 1.1,
+            "relacao_preco_dividendo": 0.0073
+        },
+        {
+            "data": "2025-02-01",
+            "preco": 150.45,
+            "dividendo": 1.1,
+            "relacao_preco_dividendo": 0.0073
+        }
+    ]
+}
